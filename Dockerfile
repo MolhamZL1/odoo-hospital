@@ -6,4 +6,4 @@ COPY ./addons /mnt/extra-addons
 # نسخ ملف الإعدادات لو موجود
 COPY ./config/odoo.conf /etc/odoo/odoo.conf
 
-EXPOSE 8069
+EXPOSE 80
